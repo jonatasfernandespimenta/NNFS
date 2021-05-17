@@ -138,7 +138,6 @@ print(activation2.output[:5])
 
 # Perform a forward pass through loss function
 # it takes the output of second dense layer here and returns loss
-
 loss = loss_function.calculate(activation2.output, y)
 
 # Print loss value
